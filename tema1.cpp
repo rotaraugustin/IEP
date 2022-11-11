@@ -9,6 +9,9 @@ cladire(); // constructor
 cladire(int n,int d,int g) {nrCamere=n; dimensiune=d; geamuri=g;}
 void setCladire(int n,int d,int g);
 void cameraRatio();
+private:
+cladire(const cladire&);
+cladire& operator=(const cladire&);
 };
 
 cladire::cladire()
@@ -33,12 +36,12 @@ void cladire::cameraRatio()
 }
 int main()
 {
-    cladire c1,c2;
+     cladire c1,c2;
+     // c1=c2;
+     // cladire c3(c1);
      c1.setCladire(6,250,5);
      c2.setCladire(5,200,4);
      c1.cameraRatio();
      c2.cameraRatio();
-
-     
     return 0;
 }
