@@ -33,12 +33,11 @@ void cladire::cameraRatio()
 }
 int main()
 {
+addconstructor
     cladire c1,c2;
      c1.setCladire(6,250,5);
      c2.setCladire(5,200,4);
      c1.cameraRatio();
      c2.cameraRatio();
-
-     
     return 0;
 }
