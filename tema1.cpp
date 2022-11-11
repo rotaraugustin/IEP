@@ -39,6 +39,7 @@ int main()
      cladire c1,c2;
      // c1=c2;
      // cladire c3(c1);
+     cladire c1,c2;
      c1.setCladire(6,250,5);
      c2.setCladire(5,200,4);
      c1.cameraRatio();
