@@ -38,5 +38,7 @@ int main()
      c2.setCladire(5,200,4);
      c1.cameraRatio();
      c2.cameraRatio();
+
+     
     return 0;
 }
